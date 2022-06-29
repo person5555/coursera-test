@@ -1,0 +1,70 @@
+body
+{
+	font-size: 200%;
+}
+*
+{
+	box-sizing: border-box;
+}
+p
+{
+	color:  blue;
+}
+li > span
+{
+	color:  yellow;
+	font-style: italic;
+	background-color:  blue;
+}
+div
+{
+	color:  white;
+	background-color:  black;
+}
+#divID
+{
+	background-color: gray;
+	padding: 10px;
+	border: 3px dashed green;
+	margin: 20px;
+	width: 200px;
+	height: 100px;
+	overflow: auto;
+}
+
+/* large devices format */
+@media (min-width:  1440px)
+{
+	#list
+	{
+		font-size:  90%;
+	}
+	#divID
+	{
+		width: 80%;
+	}
+}
+/* medium devices format */
+@media (min-width:  720px) and (max-width:  1439px)
+{
+	#list
+	{
+		font-size:  70%;
+	}
+	#divID
+	{
+		width: 60%;
+	}
+}
+/* small devices format */
+@media (min-width:  480px) and (max-width:  719px)
+{
+	#list
+	{
+		font-size:  50%;
+	}
+	#divID
+	{
+		width: 40%;
+	}
+}
