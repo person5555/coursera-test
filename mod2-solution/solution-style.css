@@ -63,7 +63,7 @@
     .col-lg-4
     {
         margin: 4px;
-        width: 32%;
+        width: calc(33.3% - 8px);
         float: left;
         padding: 10px;
     }
@@ -75,13 +75,13 @@
     .col-md-6
     {
         margin: 4px;
-        width: 48.5%;
+        width: calc(50% - 8px);
         float: left;
         padding: 10px;
     }
     #sushi_box
     {
-        width: 99%;
+        width: calc(100% - 8px);
     }
 }
 /* small devices format */
@@ -90,7 +90,7 @@
     .sml
     {
         margin: 4px;
-        width: 100%;
+        width: calc(100% - 8px);
         float: left;
         padding: 10px;
     }
