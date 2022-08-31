@@ -1,0 +1,97 @@
+*
+{
+    box-sizing: border-box;
+}
+
+#menuTitle
+{
+    font-size: 1.75em;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+ }
+
+#MainDiv > div
+{
+    align-content: center;
+    border:1px solid black;
+}
+
+#chicken
+{
+    background-color: yellow;
+    font-style: italic;
+    font-family: cursive;
+}
+
+#beef
+{
+    background-color: rgb(161,64,64);
+    font-style: italic;
+    font-family: cursive;
+}
+
+#sushi
+{
+	background-color: pink;
+	font-style: italic;
+	font-family: cursive;
+}
+
+#chicken_box, #beef_box, #sushi_box
+{
+    background-color: grey;
+    font-family: sans-serif;
+}
+
+#chicken, #beef, #sushi
+{
+    text-align: center;
+    margin-right: -11px;
+    margin-top: -11px;
+    margin-left: auto;
+    width: 200px;
+    height: 28px;
+    border: 1px solid black;
+    font-size: 1.25em;
+    padding: 2px;
+}
+
+/* large devices format */
+@media (min-width:  992px)
+{ 
+    .col-lg-4
+    {
+        margin: 4px;
+        width: 32%;
+        float: left;
+        padding: 10px;
+    }
+
+}
+/* medium devices format */
+@media (min-width:  768px) and (max-width:  991px)
+{
+    .col-md-6
+    {
+        margin: 4px;
+        width: 48.5%;
+        float: left;
+        padding: 10px;
+    }
+    #sushi_box
+    {
+        width: 99%;
+    }
+}
+/* small devices format */
+@media (max-width:  767px)
+{
+    .sml
+    {
+        margin: 4px;
+        width: 100%;
+        float: left;
+        padding: 10px;
+    }
+}
